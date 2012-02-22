@@ -12,4 +12,6 @@ class { 'nagios::server':
 
 class { 'nagios::twilio':
   send_from => 'YOUR PHONE NUMBER',
+  account_sid => 'YOUR TWILIO ACCOUNT SID',
+  account_token => 'YOUR TWILIO ACCOUNT TOKEN'
 }
